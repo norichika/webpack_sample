@@ -4,7 +4,9 @@
   "description": "webpack",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack-dev-server --hot --config webpack.dev.js",
+    "dev:webpack": "webpack --config webpack.dev.js --watch",
+    "dev:server": "browser-sync start --config bs-config.js",
+    "dev2": "webpack-dev-server --hot --config webpack.dev.js",
     "start": "webpack-dev-server",
     "build": "webpack --config webpack.prod.js"
   },

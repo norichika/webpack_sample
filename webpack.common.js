@@ -78,11 +78,11 @@ module.exports = {
 
 	plugins: [
 		// グローバル（ライブラリ化）devServerで開発するときはvendorファイル生成後、コメントアウト
-		// new webpack.optimize.CommonsChunkPlugin({
-		// 	name     : vendorPath,
-		// 	filenam  : vendorPath,
-		// 	minChunks: Infinity
-		// })
+		new webpack.optimize.CommonsChunkPlugin({
+			name     : vendorPath,
+			filenam  : vendorPath,
+			minChunks: Infinity
+		})
 	],
 
 	// ローカル開発用環境を立ち上げる
