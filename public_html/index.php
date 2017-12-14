@@ -6,8 +6,11 @@
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-<p><a href="#">bbbbb</a></p>
+<p><a href="#">aaaaaaa</a></p>
 テストになります。テストになります。テストになります。
+<?php
+phpinfo();
+?>
 <script src="./js/vendor.js"></script>
 <script src="./js/main.js"></script>
 </body>

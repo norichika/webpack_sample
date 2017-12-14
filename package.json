@@ -1,5 +1,5 @@
 {
-  "name": "sumai_stock",
+  "name": "server_sample",
   "version": "1.0.0",
   "description": "webpack",
   "main": "webpack.config.js",

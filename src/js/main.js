@@ -3,8 +3,8 @@ import Utils from './_sub';
 Utils.method1();
 Utils.method2();
 
-timer(1000);
-
+timer(5000);
+console.log("aaaaa");
 
 function timer(delay) {
 	let myFirstPromise = new Promise((resolve, reject) => {

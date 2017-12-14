@@ -11,7 +11,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 __WEBPACK_IMPORTED_MODULE_0__sub__["a" /* default */].method1();
 __WEBPACK_IMPORTED_MODULE_0__sub__["a" /* default */].method2();
 
-timer(1000);
+timer(5000);
+console.log("aaaaa");
 
 function timer(delay) {
 	var myFirstPromise = new Promise(function (resolve, reject) {
